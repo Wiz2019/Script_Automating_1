@@ -10,5 +10,5 @@ print("View: ", yt.views)
 
 yd = yt.streams.get_highest_resolution()
 
-yd.download(r'C:\Users\1yash\Videos')
+yd.download([file path]) #add your file path 
 
