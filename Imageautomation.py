@@ -1,8 +1,8 @@
 from PIL import Image, ImageEnchance, ImageFilter
 import os
 
-path = './imgs'
-pathOut = '/editedImgs'
+path = './imgs' #enter the path for your images to taken for editting 
+pathOut = '/editedImgs' #enter the path you want you want to store your edited photos 
 
 for filename in os.listdir(path):
     img = Image.open(f"{path}/{filename}")
