@@ -1,8 +1,8 @@
 from PIL import Image, ImageEnhance, ImageFilter
 import os
 
-path = r'C:\Users\1yash\Pictures\Image automated script _original'
-pathOut = r'C:\Users\1yash\Pictures\Image automated script'
+path = r'C:\Users\1yash\Pictures\Image automated script _original' #path from where you want to enter photo 
+pathOut = r'C:\Users\1yash\Pictures\Image automated script' #path where you want to store the edited photos 
 
 for filename in os.listdir(path):
     try:
